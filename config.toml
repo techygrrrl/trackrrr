@@ -1,0 +1,4 @@
+baseURL = 'https://trackrrr.techygrrrl.stream/'
+languageCode = 'en-us'
+title = 'Trackrrr'
+theme = "trackrrr"

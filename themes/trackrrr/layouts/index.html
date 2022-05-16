@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+
+{{ range $.Site.Data.features }}
+{{ partial "feature.html" . }}
+{{ end }}
+
+{{ partial "footer.html" . }}
