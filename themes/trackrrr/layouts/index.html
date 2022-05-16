@@ -1,9 +1,15 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
 
-{{ range $.Site.Data.features }}
-
-{{ partial "feature.html" . }}
-{{ end }}
-
-{{ partial "footer.html" . }}
+  <body>
+    {{ partial "hero-banner.html" . }}
+    
+    {{ range $.Site.Data.features }}
+    
+    {{ partial "feature.html" . }}
+    {{ end }}
+    
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,5 +1,14 @@
 @import "./variables/variables";
 
-body {
-  // background: $pink;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.6;
+}
+
+
+@import "./components/components.scss";
