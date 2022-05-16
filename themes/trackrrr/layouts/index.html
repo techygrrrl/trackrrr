@@ -5,10 +5,13 @@
   <body>
     {{ partial "hero-banner.html" . }}
     
-    {{ range $.Site.Data.features }}
-    
-    {{ partial "feature.html" . }}
-    {{ end }}
+    <div class="features">
+      <div class="container">
+        {{ range $.Site.Data.features }}
+        {{ partial "feature.html" . }}
+        {{ end }}
+      </div>
+    </div>
     
     {{ partial "footer.html" . }}
   </body>
