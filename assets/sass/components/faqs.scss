@@ -1,0 +1,30 @@
+.faqs-page {
+}
+
+.faqs-menu {
+  margin-bottom: 60px;
+}
+
+.faqs-menu__link {
+  color: $pink;
+  font-weight: 700;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline; 
+  }
+}
+
+.faqs__faq {
+  margin-bottom: 50px;
+
+  a {
+    color: $pink;
+    font-weight: 700;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline; 
+    }
+  }
+}

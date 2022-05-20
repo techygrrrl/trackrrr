@@ -7,40 +7,43 @@
   {{- partial "header.html" . -}}
 
   <main class="container">
-    
-    <h1>{{ .Title }}</h1>
-  
-    <div class="content">
-      {{ .Content }}
-    </div>
 
-    {{ $headless := .Site.GetPage "/faqs" }}
-    {{ $reusablePages := $headless.Resources }}
+    <div class="faqs-page">
+      <h1>{{ .Title }}</h1>
 
-    <ul class="faqs-menu">
-      {{ range $reusablePages }}
-      <li>
-        <a href="#{{ .Param "key" }}">
-          {{ .Title }}
-        </a>
-      </li>
-      {{- end -}}
-    </ul>
-
-
-    <div class="faqs">
-
-      {{ range $reusablePages }}
-      
-      <h2 id="{{ .Param "key" }}" class="faqs__heading">{{ .Title }}</h2>
-      
-      <div class="faqs__faq">
+      <div class="content">
         {{ .Content }}
       </div>
 
-      {{- end -}}
-    </div>
-  </main>
+      {{ $headless := .Site.GetPage "/faqs" }}
+      {{ $reusablePages := $headless.Resources }}
+
+      <ul class="faqs-menu">
+        {{ range $reusablePages }}
+        <li>
+          <a class="faqs-menu__link" href="#{{ .Param "key" }}">
+            {{ .Title }}
+          </a>
+        </li>
+        {{- end -}}
+      </ul>
+
+
+      <div class="faqs">
+
+        {{ range $reusablePages }}
+
+        <h2 id="{{ .Param "key" }}" class="faqs__heading">{{ .Title }}</h2>
+
+        <div class="faqs__faq">
+          {{ .Content }}
+        </div>
+
+        {{- end -}}
+      </div>
+    </main>
+
+  </div>
 
   {{- partial "footer.html" . -}}
 </body>
