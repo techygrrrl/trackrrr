@@ -12,7 +12,13 @@ Trackrrr requests the following permissions on Android, for the following reason
 
 None of the information that Trackrrr can read ever leaves your phone, and never ever reaches the internet at all.
 
+## Log Data
+
+We want to inform you that whenever you visit our Service, we collect information that your browser sends to us that is called Log Data. This Log Data may include information such as your computer's Internet Protocol (“IP”) address, browser version, pages of our Service that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
+
+
 ## Service Providers
+
 We may employ third-party companies and individuals due to the following reasons:
 
 - To facilitate our Service;
