@@ -4,4 +4,4 @@ draft: false
 layout: faqs
 ---
 
-Hello, FAQs page!!
+Some of the most commonly asked questions can be found below.

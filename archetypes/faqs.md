@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-key: ""
+key: "{{ .Name }}"
 draft: false
 weight: 0
 ---

@@ -1,0 +1,29 @@
+.footer {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 100px;
+  padding-top: 200px;
+}
+
+.footer__gradient {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.footer__links {
+  text-align: center;
+}
+
+.footer__link {
+  color: $white;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0 1rem;
+}

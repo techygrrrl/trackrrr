@@ -1,6 +1,12 @@
 <div class="feature">
-   <h2>{{ .title }}</h2>
-   <p>
-      {{ .description }}
-   </p>
+  <div class="feature__text">
+    <h3>{{ .title }}</h3>
+    <p>
+       {{ .description }}
+    </p>
+  </div>
+
+  <div class="feature__image">
+    <img src="/images/{{ .image }}" alt="Screenshot">
+  </div>
 </div>

@@ -1,22 +1,32 @@
 [
   {
     "title": "Keep your data on your phone",
+    "image": "feature__local-data.png",
     "description": "The data entered in the app is stored locally on your device, not on any servers."
   },
   {
     "title": "See your data",
+    "image": "feature__visualizations.png",
     "description": "See insights about your data, including visualizations"
   },
   {
-    "title": "title",
-    "description": "description"
+    "title": "Available in different languages",
+    "image": "feature__languages.png",
+    "description": "Trackrrr is available in English, French, Spanish, Swedish, and Arabic, with more languages on the way."
   },
   {
-    "title": "title",
-    "description": "description"
+    "title": "Dark and Light modes",
+    "image": "feature__light-dark.png",
+    "description": "Use the app in your preferred appearance mode."
   },
   {
-    "title": "title",
-    "description": "description"
+    "title": "Customizable notifications",
+    "image": "feature__notifications.png",
+    "description": "Get notified for your upcoming period so that you can prepare accordingly. Configure push notifications to receive only the ones you care about. Customize text for more discrete (or fun!) notifications."
+  },
+  {
+    "title": "Import and Export your data",
+    "image": "feature__import-export.png",
+    "description": "Import or export your period tracking data as CSV."
   }
 ]
