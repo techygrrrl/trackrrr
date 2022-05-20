@@ -2,8 +2,18 @@
 
 
 .hero-banner {
+  background-image: url("/images/hero-background.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  position: relative;
   color: $white;
-  height: 60vh;
+  height: 960px;
+  
+  @include rwd-md-up {
+    height: 60vh;
+  }
 }
 
 .site-header {
@@ -51,7 +61,7 @@
   width: 100vw;
   height: 960px;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   z-index: -1;
 

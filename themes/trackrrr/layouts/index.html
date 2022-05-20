@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body>
-    {{ partial "hero-banner.html" . }}
-    
-    <div class="features">
-      <div class="container">
-        <h2>Features</h2>
-        
-        {{ range $.Site.Data.features }}
-        {{ partial "feature.html" . }}
-        {{ end }}
-      </div>
+<body>
+  {{ partial "hero-banner.html" . }}
+
+  <div class="container">
+    <h2 class="subheading">Features</h2>
+  </div>
+  
+  <div class="features">
+    <div class="container">
+
+      {{ range $.Site.Data.features }}
+      {{ partial "feature.html" . }}
+      {{ end }}
     </div>
-    
-    {{ partial "footer.html" . }}
-  </body>
+  </div>
+
+  {{ partial "footer.html" . }}
+</body>
+
 </html>

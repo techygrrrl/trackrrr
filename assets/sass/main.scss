@@ -11,5 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+// h2's
+.subheading {
+  font-size: 2rem;
+  text-align: center;
+}
 
 @import "./components/components.scss";
