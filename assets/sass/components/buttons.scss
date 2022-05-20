@@ -4,4 +4,9 @@
   padding: 0.5rem 1.5rem;
   border-radius: 30px;
   display: inline-block;
+
+  &[disabled="disabled"] {
+    background: $grey-medium;
+    cursor: not-allowed;
+  }
 }
