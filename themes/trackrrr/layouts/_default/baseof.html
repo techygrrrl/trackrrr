@@ -5,7 +5,9 @@
 <body>
   {{- partial "header.html" . -}}
 
-  {{- block "main" . }}{{- end }}
+  <div class="text-with-links">
+    {{- block "main" . }}{{- end }}
+  </div>
 
   {{- partial "footer.html" . -}}
 </body>

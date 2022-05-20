@@ -8,4 +8,4 @@ weight: 10
 
 How to import ???
 
-Click [here](/dd/d/d/d/d/d/d)
+Your file must be in the CSV format **YYYY-MM-DD,YYYY-MM-DD**.

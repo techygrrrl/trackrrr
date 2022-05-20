@@ -17,4 +17,16 @@ body {
   text-align: center;
 }
 
+.text-with-links {
+  a {
+    color: $pink;
+    font-weight: 700;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline; 
+    }
+  }
+}
+
 @import "./components/components.scss";
