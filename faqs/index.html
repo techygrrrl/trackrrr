@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html><head>
+  <title>Trackrrr &ndash; a privacy-first period tracker for people who have periods</title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Trackrrr is a privacy-first period tracker with a neutral theme. Your period data doesn't leave your phone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="/sass/main.css">
+  <link rel="shortcut icon" type="image/svg" href="/images/favicon.svg"/>
+  <link rel="apple-touch-icon" type="image/svg" href="/images/favicon.svg"/>
+  <link rel="icon" sizes="192x192" type="image/svg" href="/images/favicon.svg"/>
+</head>
+<body><div class="basic-header">
+  <div class="container">
+    <header class="site-header">
+      <a href="/" class="site-header__logo-layout">
+        <img src="/images/trackrrr-logo.svg" alt="Trackrrr logo">
+        <h1 class="site-header__title">Trackrrr</h1>
+      </a>
+      
+      <nav class="site-header__nav">
+        <a class="site-header__link" href="/#features">Features</a>
+        <a class="site-header__link" href="/faqs">FAQ</a>
+        <a class="site-header__link" href="/privacy-policy">Privacy</a>
+        <a disabled="disabled" class="site-header__link btn-primary" href="/#download">
+          Available Soon
+        </a>
+      </nav>
+    </header>
+  </div>
+</div>
+<main class="container">
+
+    <div class="faqs-page text-with-links">
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="content">
+        <p>Some of the most commonly asked questions can be found below.</p>
+
+      </div>
+
+      
+      
+
+      <ul class="faqs-menu">
+        
+        <li>
+          <a class="faqs-menu__link" href="#notified-when-ready">
+            How can I be notified when Trackrrr is ready?
+          </a>
+        </li>
+        <li>
+          <a class="faqs-menu__link" href="#import">
+            Importing data from other period tracking apps
+          </a>
+        </li>
+        <li>
+          <a class="faqs-menu__link" href="#export">
+            Exporting my data
+          </a>
+        </li>
+        <li>
+          <a class="faqs-menu__link" href="#how-can-i-help">
+            How can I help?
+          </a>
+        </li>
+        <li>
+          <a class="faqs-menu__link" href="#notifications">
+            How do I configure notifications?
+          </a>
+        </li>
+        <li>
+          <a class="faqs-menu__link" href="#dark-mode">
+            Is dark mode supported?
+          </a>
+        </li>
+        <li>
+          <a class="faqs-menu__link" href="#ios-version">
+            Will there be an iOS version?
+          </a>
+        </li></ul>
+
+
+      <div class="faqs">
+
+        
+
+        <h2 id="notified-when-ready" class="faqs__heading">How can I be notified when Trackrrr is ready?</h2>
+
+        <div class="faqs__faq">
+          <p>There are a few ways you can stay in the loop with the development of the app.</p>
+<p><strong>Trackrrr</strong> is being built by <a href="https://twitch.tv/techygrrrl">techygrrrl</a> (me) with feedback from the community on Twitch. You can always join in on the conversation there.</p>
+<p>You can also join my <a href="https://discord.gg/UDBr9v6mjA">Discord</a> server to chat.</p>
+<p>Occasionally I post to my <a href="https://blog.techygrrrl.stream">blog</a>. When something important happens with <strong>Trackrrr</strong>, I will be posting updates there. The blog has an <a href="https://blog.techygrrrl.stream/rss.xml">RSS feed</a> you can subscribe to in your favourite RSS reader to get notified. Blog posts are also posted to the <a href="https://discord.gg/UDBr9v6mjA">Discord</a> server.</p>
+
+        </div>
+
+        <h2 id="import" class="faqs__heading">Importing data from other period tracking apps</h2>
+
+        <div class="faqs__faq">
+          <p>You can import data that you&rsquo;ve exported from other period tracking apps provided it&rsquo;s in the supported format. Your file must be in the CSV format with the columns <strong>YYYY-MM-DD,YYYY-MM-DD</strong> where the 1st value is the start date and the 2nd value is the end date.</p>
+<p>To import data in the supported format, navigate to the settings by tapping the cog in the top right, then tapping Import. From there, you will need to pick the file from your device. You may need to email it to yourself and download it to your Android device before attempting to import.</p>
+<p>If your data looks like this:</p>
+<table>
+<thead>
+<tr>
+<th>Start Date</th>
+<th>End Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>January 1, 2022</td>
+<td>January 4, 2022</td>
+</tr>
+<tr>
+<td>February 1, 2022</td>
+<td>February 5, 2022</td>
+</tr>
+</tbody>
+</table>
+<p>The CSV should look like this:</p>
+<pre tabindex="0"><code class="language-csv" data-lang="csv">2022-01-01,2022-01-04
+2022-02-01,2022-02-05
+</code></pre><p>If your current period tracker exports data in a different format, I may be able to add support for it. Depending on the format of the data, it may be easy to support importing a different format. There are a couple of ways you can share your data:</p>
+<ol>
+<li>You can get in touch on <a href="https://discord.gg/UDBr9v6mjA">Discord</a> with some sample data. You are welcome and encouraged to <strong>only provide a subset of the data</strong> and <strong>modify the data</strong> you do provide to prevent having your real period data linked to you as sharing data over Discord is not private as <a href="https://medium.com/cbblog/understanding-discord-community-servers-ed30b61acdbe#:~:text=Scan%20media%20content%20from%20all%20members.">Discord scans media</a> from all members in the server.</li>
+<li>You can encrypt the file with <a href="https://www.openpgp.org/">PGP</a>. You can either <a href="https://techygrrrl.stream/api/pgp">view</a> or <a href="https://techygrrrl.stream/techygrrrl-pgp.asc">download</a> my public key. On macOS you can use <a href="https://gpgtools.org/">GPGTools</a> to sign content with my public key and send it to me over any medium.</li>
+</ol>
+<p>Please note that I will likely be building the feature on stream and may need to refer to the data, so keep that in mind when sharing. While your data would remain anonymous and not be linked to you on stream, the data could become visible on stream.</p>
+
+        </div>
+
+        <h2 id="export" class="faqs__heading">Exporting my data</h2>
+
+        <div class="faqs__faq">
+          <p>To export your data, go to the settings screen by pressing the cog at the top right.</p>
+<p>Tap the Export button to export your data as CSV in the same format as mentioned above (<strong>YYYY-MM-DD,YYYY-MM-DD</strong>).</p>
+
+        </div>
+
+        <h2 id="how-can-i-help" class="faqs__heading">How can I help?</h2>
+
+        <div class="faqs__faq">
+          <p>Firstly, thank you for wanting to help out with the project! This means a lot! 🙏</p>
+<p>There are 2 main ways you can help out:</p>
+<ol>
+<li><strong>Translating the app in your language</strong> – If you speak another language, please join the <a href="https://poeditor.com/join/project/ETAZEOvdg4">POEditor</a> project to help translate. There&rsquo;s approximately 80 terms that need to be translated. There&rsquo;s a document that links to screenshots of the app in an effort to add some context. There are some pre-selected languages. You can help as little or as much as you like, though full translations are required in order for it to be published to the app. I will also be verifying the translations to prevent abuse. <strong>I especially need help from people who have or used to have periods as they will be most familiar with colloquialisms used to talk about periods</strong>. Still, if you have never menstruated but would like to help, human translations are still much better than machine translations or no translations at all, so your help is appreciated.</li>
+<li><strong>Beta testing the app</strong> – When the app is ready (soon 🤞) I will need help beta testing before going into the store. For this task, <strong>I&rsquo;d like all beta testers to be people who have periods</strong>. Translators will also be invited to join in on the beta testing so they can see their strings in context (if they don&rsquo;t see them on stream).</li>
+</ol>
+
+        </div>
+
+        <h2 id="notifications" class="faqs__heading">How do I configure notifications?</h2>
+
+        <div class="faqs__faq">
+          <p><strong>Trackrrr</strong> allows you to configure your notifications in multiple ways:</p>
+<ul>
+<li>Selectively enable/disable different types of notifications</li>
+<li>Customize the notification text for more discrete (or fun!) notifications</li>
+</ul>
+<p>On Android, <strong>Trackrrr</strong> leverages Android&rsquo;s native functionality to configure notification channels, which allows you to selectively enable or disable some or all notifications based on type.</p>
+<p>There are 3 types of notifications you can enable/disable:</p>
+<ul>
+<li><strong>Period past reminders</strong>: These are triggered when your period is estimated to have started. They will have a &ldquo;Log now&rdquo;  button allowing you to start your current period.</li>
+<li><strong>Upcoming period reminders</strong>: Provided <strong>Trackrrr</strong> has enough data to calculate your upcoming period, 7 days before your period is projected to start, you should receive a notification reminding you.</li>
+<li><strong>Period end date verification</strong>: On the projected end date of your period, you will be prompted to confirm the period end date. If you ignore this notification, nothing happens, it will use the projected end date (same day you receive the notification). You can action the notification to change this date.</li>
+</ul>
+<p>To enable or disable one of these types of notifications, you can visit <strong>Trackrrr</strong>&rsquo;s notification settings in your Android settings. A shortcut has been added to <strong>Trackrrr</strong>:</p>
+<ul>
+<li>Tap the cog at the top right</li>
+<li>Tap Notifications</li>
+</ul>
+<p>On top of selectively enabling/disabling via the Android operating system settings, <strong>Trackrrr</strong> has the ability for you to customize the notification text for each of the above types of notifications. You can access this by going to the settings screen by tapping the cog at the top right, then tapping Notification text.</p>
+<p>This feature will allow you to customize the text to make it more discrete. We&rsquo;ve all gotten awkward notifications from our current period trackers, and maybe others saw these messages and it left you feeling uncomfortable. When you customize the notifications, the title says &ldquo;Reminder&rdquo; and the notification body says whatever you put. You can use this to make your notifications more discrete, or more fun! You can also delete the text if you&rsquo;d like to revert back to the default notifications.</p>
+
+        </div>
+
+        <h2 id="dark-mode" class="faqs__heading">Is dark mode supported?</h2>
+
+        <div class="faqs__faq">
+          <p>Yes, dark mode is supported. By default, <strong>Trackrrr</strong> uses your system&rsquo;s configuration, but if you prefer one of the appearance modes more than another, you can override this in the <strong>Trackrrr</strong> settings to always use that theme. Tap the cog at the top right and tap Theme, and choose between System, Light and Night themes.</p>
+
+        </div>
+
+        <h2 id="ios-version" class="faqs__heading">Will there be an iOS version?</h2>
+
+        <div class="faqs__faq">
+          <p>I&rsquo;ve really enjoyed building <strong>Trackrrr</strong> on my <a href="https://twitch.tv/techygrrrl">Twitch stream</a> so I will probably build an iOS version. That said, there are no immediate plans to do so. I&rsquo;d like to see how the Android app does. I work full-time and this is a labour of love and I can only work on <strong>Trackrrr</strong> in my off time. That said, I built <strong>Trackrrr</strong> for Android in about 10 streams, so I see it being a pretty strong possibility, and a great opportunity to learn a new framework like Swift UI!</p>
+
+        </div></div>
+    </main>
+
+  </div><footer class="footer">
+  
+
+  <div class="container">
+    <nav class="footer__links">
+      <a class="footer__link" href="/#features">Features</a>
+      <a class="footer__link" href="/privacy-policy">Privacy Policy</a>
+      <a class="footer__link" href="/faqs">FAQs</a>
+    </nav>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trackrrr</title>
+    <link>https://trackrrr.techygrrrl.stream/</link>
+    <description>Recent content on Trackrrr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://trackrrr.techygrrrl.stream/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://trackrrr.techygrrrl.stream/privacy-policy/</link>
+      <pubDate>Fri, 20 May 2022 02:46:34 -0700</pubDate>
+      
+      <guid>https://trackrrr.techygrrrl.stream/privacy-policy/</guid>
+      <description>Last updated: Friday, May 20, 2022 Android Permissions The Trackrrr app does not require any permissions on Android.
+User Data On Android, all period data is stored on the device in SQLite in the ./databases folder and the Trackrrr app does not send this data to any servers.
+On web, no data is collected.
+Log Data We want to inform you that whenever you visit our Service, we collect information that your browser sends to us that is called Log Data.</description>
+    </item>
+    
+    <item>
+      <title>404 Page not found</title>
+      <link>https://trackrrr.techygrrrl.stream/404.html</link>
+      <pubDate>Sun, 15 May 2022 23:54:26 -0700</pubDate>
+      
+      <guid>https://trackrrr.techygrrrl.stream/404.html</guid>
+      <description>The page you are looking for does not exist.</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://trackrrr.techygrrrl.stream/faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trackrrr.techygrrrl.stream/faqs/</guid>
+      <description>Some of the most commonly asked questions can be found below.</description>
+    </item>
+    
+  </channel>
+</rss>
