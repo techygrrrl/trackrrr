@@ -1,11 +1,11 @@
 ---
-title: "Exporting data"
+title: "Exporting my data"
 draft: false
 key: "export"
 headless: true
-weight: 90
+weight: 210
 ---
 
-How to export ???!
+To export your data, go to the settings screen by pressing the cog at the top right.
 
-Click [here](/dd/d/d/d/d/d/d)
+Tap the Export button to export your data as CSV in the same format as mentioned above (**YYYY-MM-DD,YYYY-MM-DD**).

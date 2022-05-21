@@ -1,11 +1,13 @@
 .footer {
+  background: $aubergine;
   position: relative;
   overflow: hidden;
-  margin-top: 100px;
-  padding-top: 200px;
+  padding: 20px 0;
+  margin-top: 60px;
   
   @include rwd-md-up {
-    height: 400px;
+    margin-top: 100px;
+    padding: 40px 0;
   }
 }
 
@@ -24,19 +26,23 @@
 }
 
 .footer__links {
-  text-align: center;
   padding: 40px 0;
-
+  
   @include rwd-md-up {
+    text-align: center;
     padding: 0;
   }
 }
 
 .footer__link {
+  display: block;
   color: $white;
   font-weight: 700;
   text-decoration: none;
-  display: inline-block;
   padding: 0.5em 1em;
   margin: 0 1rem;
+  
+  @include rwd-md-up {
+    display: inline-block;
+  }
 }

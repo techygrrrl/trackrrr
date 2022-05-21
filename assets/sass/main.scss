@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+code {
+  font-family: 'Consolas', 'Source Code Pro', 'Courier New', Courier, monospace;
+}
+
 // h2's
 .subheading {
   font-size: 2rem;
@@ -26,6 +30,28 @@ body {
     &:hover {
       text-decoration: underline; 
     }
+  }
+
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td, th {
+    border: 1px solid $grey-light;
+    padding: 0.5rem 1rem;
+  }
+
+  pre {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 40rem;
   }
 }
 
