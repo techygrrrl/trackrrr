@@ -23,6 +23,6 @@ To enable or disable one of these types of notifications, you can visit **Trackr
 - Tap the cog at the top right
 - Tap Notifications
 
-On top of customizing the notifications natively via Android, **Trackrrr** has the ability for you to customize the notification text for each of the above types of notifications. You can access this by going to the settings screen by tapping the cog at the top right, then tapping Notification text.
+On top of selectively enabling/disabling via the Android operating system settings, **Trackrrr** has the ability for you to customize the notification text for each of the above types of notifications. You can access this by going to the settings screen by tapping the cog at the top right, then tapping Notification text.
 
 This feature will allow you to customize the text to make it more discrete. We've all gotten awkward notifications from our current period trackers, and maybe others saw these messages and it left you feeling uncomfortable. When you customize the notifications, the title says "Reminder" and the notification body says whatever you put. You can use this to make your notifications more discrete, or more fun! You can also delete the text if you'd like to revert back to the default notifications.
