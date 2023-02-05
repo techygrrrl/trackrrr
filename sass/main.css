@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box; }
 
+html {
+  color-scheme: dark; }
+
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.6;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #0a0510; }
 
 code {
   font-family: 'Consolas', 'Source Code Pro', 'Courier New', Courier, monospace; }
