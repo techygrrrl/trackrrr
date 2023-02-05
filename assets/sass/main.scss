@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  color-scheme: dark;
+}
+
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  background: $background;
 }
 
 code {
